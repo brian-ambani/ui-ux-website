@@ -7,7 +7,9 @@ export default function page() {
     <>
       <Navbar />
       <Hero />
-      <Features />
+      <div className="px-[20px] lg:container lg:px-20 mx-auto">
+        <Features />
+      </div>
     </>
   );
 }
