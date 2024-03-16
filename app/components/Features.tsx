@@ -5,6 +5,7 @@ import Feature3 from "../../public/assets/feature-3.svg";
 import Check from "../../public/assets/check.svg";
 import bluebutton from "../../public/assets/blue-button.svg";
 import greenbutton from "../../public/assets/green-button.svg";
+import pinkbutton from "../../public/assets/pink-button.svg";
 
 export function Features() {
   return (
@@ -108,6 +109,47 @@ export function Features() {
             Learn more
             <span>
               <Image src={greenbutton} alt="Learn more" />
+            </span>
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col gap-x-6 sm:flex-row-reverse">
+        <Image
+          src={Feature3}
+          alt="feature image"
+          className="hidden w-1/2 sm:block"
+        />
+        <div className="sm:w-1/2 lg:py-[56px] lg:pr-[56px]">
+          <h3 className="font-medium text-[#EB2891] lg:text-[18px]">
+            Growth Monitoring
+          </h3>
+          <h1 className="font-medium pt-[12px] text-2xl text-[#172026] lg:text-[42px] lg:leading-[58px]">
+            Monitor your site's new subscribers
+          </h1>
+          <Image
+            src={Feature3}
+            alt="feature 1 image"
+            className="pt-[24px] sm:hidden"
+          />
+          <p className="py-[20px] text-[#36485C] lg:text-[18px]">
+            Stay on top of things and revamp your work process with our
+            game-changing feature. Get a bird's eye view with our customizable
+            dashboard.
+          </p>
+          <div className="flex w-full gap-x-[24px]">
+            <div className="w-1/2 flex flex-col gap-y-3">
+              <h3 className="text-[20px] font-medium text-[#172026]">100+</h3>
+              <p className="text-[#36485C] ">Lorem, ipsum dolor.</p>
+            </div>
+            <div className="w-1/2 flex flex-col gap-y-3">
+              <h3 className="text-[20px] font-medium text-[#172026]">800+</h3>
+              <p className="text-[#36485C] ">Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+          <p className="pt-[24px] flex items-center gap-x-2 font-medium text-[#EB2891] lg:text-[18px]">
+            Learn more
+            <span>
+              <Image src={pinkbutton} alt="Learn more" />
             </span>
           </p>
         </div>
